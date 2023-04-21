@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.landing-screen-container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./login-background.jpg');
+}
+
+.landing-screen-container::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.45);
+}
+
+.landing-container {
+    /* background-image: url('./login-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+
+  .landing-form-container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.201);
+    width: 450px;
+    padding: 40px;
+    backdrop-filter: brightness(120%) blur(10px) contrast(70%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+
+.landing-title-style{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle-style {
+    color: whitesmoke;
+    font-size:large;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.signup-button {
+    margin: 10px;
+    margin-top: 40px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    background-color:rgba(0, 0, 0, 0.297);
+    border-color: rgba(0, 0, 0, 0.367);
+    border-radius: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.login-button {
+    margin: 10px;
+    margin-top: 40px;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: solid;
+    background-color:rgba(0, 0, 0, 0.297);
+    border-color: rgba(0, 0, 0, 0.367);
+    border-radius: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.button-container {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyright-style {
+    color: rgb(183, 183, 190);
+    text-align: center;
+    margin-top: 50px;
+}

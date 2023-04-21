@@ -1,0 +1,129 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.my-component {
+  background-image: url('./login-background.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(50px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.my-component-2 {
+    background-image: url('./login-background.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+
+.blur-body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  }
+
+.movies-container {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #ffffff32;
+  }
+
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff1f;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+  }
+
+  .nav-title {
+    float:left;
+    position: -webkit-sticky; 
+    position: sticky; 
+    left: 0; 
+    margin-right: 55%;
+    color: #fff;
+  }
+
+  .home-search-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-search-container input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    width: 60%;
+  }
+  
+  .home-search-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .profile-welcome {
+    color:whitesmoke;
+    padding: 60px;
+    padding-left: 7%;
+  }
+
+  .bio-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }

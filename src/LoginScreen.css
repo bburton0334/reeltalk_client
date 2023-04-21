@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.screen-container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./login-background.jpg');
+}
+
+.screen-container::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.45);
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .login-form-container {
+    width: 450px;
+    padding: 40px;
+    backdrop-filter: brightness(500%) blur(15px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+.title-style{
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle-style {
+    font-size:large;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.google-container {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.copyright-style {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav-go-back {
+    position: absolute;
+    z-index:2;
+    padding: 2rem;
+}
+
+.go-back-button {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    background-color:rgba(0, 0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(230, 225, 240);
+    text-transform: uppercase;
+    text-decoration: none;
+    border-width: 1px;
+}

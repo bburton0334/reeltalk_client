@@ -43,9 +43,7 @@ const Home = ({ user }) => {
 
   const logout = () => {
     localStorage.removeItem("user");
-    //window.location.reload();
-    console.log("testing");
-    window.location.href="./"
+    window.location.reload();
   };
   return (
     <div className={className}>
